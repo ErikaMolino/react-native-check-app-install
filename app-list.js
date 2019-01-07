@@ -1,6 +1,7 @@
 export const APP_LIST = {
     "whatsapp": {pkgName: "com.whatsapp", urlScheme: "whatsapp", urlParams: "app"}, // fa
     "facebook": {pkgName: "com.facebook.katana", urlScheme: "fb", urlParams: "requests"}, // fa: facebook-official
+    "facebooklite": {pkgName: "com.facebook.lite", urlScheme: "fb", urlParams: "requests"}, // fa: facebook-lite
     "facebook messenger": {pkgName: "com.facebook.orca", urlScheme: "fb-messenger", urlParams: "user-thread/{user-id}"}, // fa: facebook
     "skype": {pkgName: "com.skype.raider", urlScheme: "skype", urlParams: "echo123?call"}, // fa
     "wechat": {pkgName: "com.tencent.mm", urlScheme: "weixin", urlParams: "dl/chat"}, // fa
